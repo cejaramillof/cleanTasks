@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.reactive.CommandHandlersConfigTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-20T15:22:42" hostname="MacBook-Pro-de-rpombo-3.local" time="0.297">
+  <properties/>
+  <testcase name="shouldRegisterAssignTaskCommand" classname="app.demo.reactive.CommandHandlersConfigTest" time="0.2"/>
+  <testcase name="shouldRegisterCommands" classname="app.demo.reactive.CommandHandlersConfigTest" time="0.094"/>
+  <testcase name="shouldRegisterCompleteTaskCommand" classname="app.demo.reactive.CommandHandlersConfigTest" time="0.001"/>
+  <system-out><![CDATA[10:22:42.452 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

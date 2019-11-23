@@ -1,0 +1,7 @@
+
+dependencies {
+    compile project(':domain-usecase')
+    compile 'org.reactivecommons:async-commons-api:0.0.7-beta1'
+    compile('org.springframework:spring-context')
+
+}

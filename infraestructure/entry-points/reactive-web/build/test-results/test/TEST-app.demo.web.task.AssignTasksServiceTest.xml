@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.web.task.AssignTasksServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-20T15:22:52" hostname="MacBook-Pro-de-rpombo-3.local" time="0.096">
+  <properties/>
+  <testcase name="assignTaskRestTest" classname="app.demo.web.task.AssignTasksServiceTest" time="0.096"/>
+  <system-out><![CDATA[2019-08-20 10:22:52.674  INFO 42027 --- [    Test worker] b.t.a.w.r.WebFluxTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [app.demo.web.task.AssignTasksServiceTest], using SpringBootContextLoader
+2019-08-20 10:22:52.675  INFO 42027 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [app.demo.web.task.AssignTasksServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-20 10:22:52.675  INFO 42027 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [app.demo.web.task.AssignTasksServiceTest]: AssignTasksServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-20 10:22:52.680  INFO 42027 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration app.demo.web.task.TestApp for test class app.demo.web.task.AssignTasksServiceTest
+2019-08-20 10:22:52.681  INFO 42027 --- [    Test worker] b.t.a.w.r.WebFluxTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-20 10:22:52.683  INFO 42027 --- [    Test worker] b.t.a.w.r.WebFluxTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b642d97, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1a71fc6b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@a8b9d40, org.springframework.test.context.support.DirtiesContextTestExecutionListener@652a74d9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7f38e57e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6abfdc56, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c882ddc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@a321a28, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32991d05]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2019-08-20 10:22:52.707  INFO 42027 --- [    Test worker] a.demo.web.task.AssignTasksServiceTest   : Starting AssignTasksServiceTest on MacBook-Pro-de-rpombo-3.local with PID 42027 (started by derico in /Users/derico/Documents/T+1/Clean Architecture/service-base/infraestructure/entry-points/reactive-web)
+2019-08-20 10:22:52.708  INFO 42027 --- [    Test worker] a.demo.web.task.AssignTasksServiceTest   : No active profile set, falling back to default profiles: default
+2019-08-20 10:22:52.942  INFO 42027 --- [    Test worker] a.demo.web.task.AssignTasksServiceTest   : Started AssignTasksServiceTest in 0.255 seconds (JVM running for 9.658)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+dependencies {
+//    compile('org.springframework.cloud:spring-cloud-starter-sleuth')
+//    compile('org.springframework.cloud:spring-cloud-starter-zipkin')
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    // https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-prometheus
+    compile group: 'io.micrometer', name: 'micrometer-registry-prometheus'
+    // https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-starter-client
+    compile group: 'de.codecentric', name: 'spring-boot-admin-starter-client', version: '2.1.0'
+    compile 'io.projectreactor:reactor-logback:2.0.8.RELEASE'
+//    compile 'org.springframework.cloud:spring-cloud-sleuth-reactor:1.3.5.RELEASE'
+}

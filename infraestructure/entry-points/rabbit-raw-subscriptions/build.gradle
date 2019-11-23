@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':domain-usecase')
+    compile 'org.reactivecommons:async-commons-api:0.0.7-beta1'
+    compile group: 'org.reactivecommons', name: 'async-commons-starter', version: '0.0.7-beta1'
+
+}

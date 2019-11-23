@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class app.demo.reactive.repository.jpa.AdapterOperationsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class app.demo.reactive.repository.jpa.AdapterOperationsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/app.demo.reactive.repository.jpa.html">app.demo.reactive.repository.jpa</a> &gt; AdapterOperationsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.594s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">findByExample</td>
+<td class="success">0.563s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldSaveAndFind</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:23:19.342 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.355 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:23:19.370 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:23:19.403 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:23:19.419 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest], using SpringBootContextLoader
+10:23:19.424 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]: class path resource [app/demo/reactive/repository/jpa/AdapterOperationsTest-context.xml] does not exist
+10:23:19.425 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]: class path resource [app/demo/reactive/repository/jpa/AdapterOperationsTestContext.groovy] does not exist
+10:23:19.425 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:23:19.426 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]: AdapterOperationsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:23:19.477 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.587 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/derico/Documents/T+1/Clean Architecture/service-base/infraestructure/helpers/jpa-repository-commons/build/classes/java/test/app/demo/reactive/repository/jpa/TestApp.class]
+10:23:19.589 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration app.demo.reactive.repository.jpa.TestApp for test class app.demo.reactive.repository.jpa.AdapterOperationsTest
+10:23:19.718 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [app.demo.reactive.repository.jpa.AdapterOperationsTest]: using defaults.
+10:23:19.719 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:23:19.731 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+10:23:19.746 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@16fb96a7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a81e451, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@496f1323, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32e3f43e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7867126b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5d61c25a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ca634de, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41c97f70, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1fdc968, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@52ddb81f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f80665e]
+10:23:19.750 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.750 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.751 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.751 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.758 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6686299 testClass = AdapterOperationsTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30eef339 testClass = AdapterOperationsTest, locations = '{}', classes = '{class app.demo.reactive.repository.jpa.TestApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@315b70d8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@30e46f0f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@735435c2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1cbf4a9e], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+10:23:19.759 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.759 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [app.demo.reactive.repository.jpa.AdapterOperationsTest]
+10:23:19.767 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6686299 testClass = AdapterOperationsTest, testInstance = app.demo.reactive.repository.jpa.AdapterOperationsTest@74e186a5, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@30eef339 testClass = AdapterOperationsTest, locations = '{}', classes = '{class app.demo.reactive.repository.jpa.TestApp}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@315b70d8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@30e46f0f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@735435c2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1cbf4a9e], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+10:23:19.800 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2019-08-20 10:23:20.088  INFO 42030 --- [    Test worker] a.d.r.r.jpa.AdapterOperationsTest        : Starting AdapterOperationsTest on MacBook-Pro-de-rpombo-3.local with PID 42030 (started by derico in /Users/derico/Documents/T+1/Clean Architecture/service-base/infraestructure/helpers/jpa-repository-commons)
+2019-08-20 10:23:20.089  INFO 42030 --- [    Test worker] a.d.r.r.jpa.AdapterOperationsTest        : No active profile set, falling back to default profiles: default
+2019-08-20 10:23:20.589  INFO 42030 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-20 10:23:20.774  INFO 42030 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176ms. Found 1 repository interfaces.
+2019-08-20 10:23:21.382  INFO 42030 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-20 10:23:21.680  INFO 42030 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-20 10:23:21.801  INFO 42030 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-20 10:23:21.919  INFO 42030 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-08-20 10:23:21.921  INFO 42030 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-20 10:23:22.114  INFO 42030 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-20 10:23:22.326  INFO 42030 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-20 10:23:23.089  INFO 42030 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@77a0cee0'
+2019-08-20 10:23:23.093  INFO 42030 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-20 10:23:23.605  INFO 42030 --- [    Test worker] a.d.r.r.jpa.AdapterOperationsTest        : Started AdapterOperationsTest in 3.801 seconds (JVM running for 10.128)
+2019-08-20 10:23:23.953  INFO 42030 --- [      elastic-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.4.1</a> at 20/08/2019, 10:23:24 a. m.</p>
+</div>
+</div>
+</body>
+</html>

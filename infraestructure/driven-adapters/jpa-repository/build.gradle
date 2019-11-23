@@ -1,0 +1,11 @@
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile project(':domain-model')
+    compile project(':helpers-jpa-repository-commons')
+    compile 'com.h2database:h2'
+    
+    testCompile 'org.reactivecommons.utils:object-mapper:0.1.0'
+    testCompile 'com.h2database:h2'
+
+}
+
